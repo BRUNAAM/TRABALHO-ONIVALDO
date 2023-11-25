@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(77, 69, 69);
+}
+
+.container {
+    display: flex;
+    max-width: 500px;
+    border: 1px solid #c20e0e;
+    padding: 20px;
+    max-width: 500px;
+}
+
+
+.coluna-1 {
+    flex: 70%;
+    width: 500px;
+    display: flex;
+    background-color: #ad0a64;
+    padding: 10px;
+    margin: 10px;
+}
+
+.coluna-2 {
+    flex: 30%;
+    width: 500px;
+    display: flex;
+    background-color: #faf8f8;
+    padding: 10px;
+    margin: 10px;
+}

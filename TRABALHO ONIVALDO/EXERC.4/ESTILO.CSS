@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coluna {
+    padding: 20px;
+    border: 1px solid #130101;
+    box-shadow: 0 0 5px crimson;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .coluna {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .coluna:last-child {
+        margin-right: 0;
+    }
+}

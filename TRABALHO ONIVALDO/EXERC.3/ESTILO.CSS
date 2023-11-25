@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: chocolate;
+}
+
+.navegacao {
+    display: flex;
+    background-color: #333;
+    justify-content: space-around;
+    /* Espaço igual entre os itens */
+    padding: 10px 0;
+}
+
+.aba {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}

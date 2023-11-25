@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid #e20cad;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.produto {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .produto {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .produto {
+        width: 100%;
+    }
+}
